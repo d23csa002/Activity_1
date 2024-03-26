@@ -28,7 +28,7 @@ plt.plot(x, y_leaky_relu, label='Leaky ReLU')
 plt.plot(x, y_tanh, label='Tanh')
 plt.xlabel('Input')
 plt.ylabel('Output')
-plt.title('Activation Functions')
+plt.title('Activation Functions Comparison') # tile updation the bug which was there
 plt.legend()
 plt.grid(True)
 plt.show()
